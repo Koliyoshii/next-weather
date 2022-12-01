@@ -38,8 +38,7 @@ export default function Home() {
       fetchWeather();
     } catch (error) {
       setHasError(true);
-      setError(
-        error || "Something went wrong. Did you searched for a real city?"
+      setErrorMessage("Something went wrong. Did you searched for a real city?"
       );
       console.log(error);
     }
@@ -69,6 +68,7 @@ export default function Home() {
       <Container>
         {isLoading && <LoadingSpinner/>}
         {weather.main && <Weather weatherData={weather}/>}
+        {hasError && <p>{errorMessage}</p>}
       </Container>
       
       </Layout>
