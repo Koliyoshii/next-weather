@@ -7,7 +7,7 @@ import SearchForm from "../components/SearchForm";
 import Weather from "../components/Weather/Weather";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 import Container from "../components/ui/Container";
-import Layout from "../components/ui/layout";
+import Layout from "../components/ui/Layout";
 
 export default function Home() {
   const [weather, setWeather] = useState({});
