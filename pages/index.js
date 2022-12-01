@@ -46,7 +46,7 @@ export default function Home() {
   };
 
   const handleCityChange = (event) => {
-    setCity(event.target.value);
+    setCity(event.target.value);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
   };
 
   return (
