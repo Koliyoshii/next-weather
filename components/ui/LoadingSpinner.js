@@ -2,11 +2,11 @@ import { TailSpin } from "react-loader-spinner";
 
 const LoadingSpinner = () => {
     return(
-        <div className="w-50 m-auto pt-5">
+        <div className="flex justify-center pt-4">
             <TailSpin
             height="80"
             width="80"
-            color="#4fa94d"
+            color="#0096FF"
             ariaLabel="tail-spin-loading"
             radius="1"
             wrapperStyle={{}}
